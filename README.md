@@ -61,10 +61,6 @@ pet_adoption/
 |
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧠 What I Learned
