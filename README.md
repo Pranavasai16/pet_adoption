@@ -62,6 +62,11 @@ pet_adoption/
 └── README.md
 ```
 ---
+## 📸 Screenshots
+![Screenshot 2025-05-14 140444](https://github.com/user-attachments/assets/bce8b1c7-4a35-4323-a37d-48c2c4b7aa96)
+![Screenshot 2025-05-14 140559](https://github.com/user-attachments/assets/16d8b01d-a539-4051-95ad-d19a8a099df1)
+![Screenshot 2025-05-14 140629](https://github.com/user-attachments/assets/8d7312b0-bde5-4974-a4f4-65d55648aec0)
+---
 
 ## 🧠 What I Learned
 
