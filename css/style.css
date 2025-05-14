@@ -1,0 +1,277 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: #f5fdf8; 
+}
+#top {
+    background-color: #8fd9a8;
+    font-size: 2em;
+    padding: 20px;
+}
+
+#middle {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#bottom {
+    background-color: #fddf7f; 
+    padding: 20px;
+}
+h1, h2 {
+    color: #2e7d32;
+}
+p {
+    color: #333;
+}
+.txt {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Animal Grid Layout */
+.animal-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+/* .animal-link {
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.animal-link:hover {
+    background-color: #fef9e7;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.animal-link h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #2e7d32;
+}
+
+
+.animal-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+} */
+.animal-link {
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.animal-link:hover {
+    background-color: #fef9e7;
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.animal-link h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.animal-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+#contact-form {
+    background: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5fcf80;
+}
+/* Navigation Bar */
+#navbar {
+    background-color: #6ec993;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+#navbar a:hover {
+    background-color: #58b07a;
+    border-radius: 5px;
+}
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+
+.close {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#formMessage.success {
+    color: green;
+}
+
+#formMessage.error {
+    color: red;
+}
+
+.animal-listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* .animal-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+/* .animal-card img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+} */
+/* .animal-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+} */ 
+ .animal-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 300px;       
+  height: 400px;       
+  overflow: hidden;
+}
+
+.animal-card img {
+  width: 100%;
+  height: 250px;       
+  object-fit: cover;    
+  border-radius: 10px;
+}
+
+
+.adopt-btn {
+    margin-top: 1px;
+    padding: 8px 12px;
+    background-color: #5fcf80;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adopt-btn:hover {
+    background-color: #3fae64;
+}

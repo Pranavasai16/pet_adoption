@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFriends - Animal Adoption</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="top">
+        <h1>PawPromise - Animal Adoption</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#animals">Animals</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+    </nav>
+    <main id="middle">
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p class="txt">
+                At <strong>PawPromise</strong>, we believe every animal deserves a safe, loving, and permanent home.
+                Our mission is to connect kind-hearted adopters with rescued animals in need of care.
+            </p>
+            <p class="txt">
+                We work with local shelters and foster homes to showcase animals looking for families.
+                Whether you’re a dog lover, a cat cuddler, or fascinated by birds and bunnies — we’re here to help you
+                find your perfect furry (or feathered) friend.
+            </p>
+            <p class="txt">
+                Join us in making the world a better place — one adoption at a time.
+            </p>
+        </section>
+
+        <section id="animals">
+            <h2>Animals Available for Adoption:</h2>
+            <div class="animal-container">
+                <a href="dog.html" class="animal-link">
+                    <img src="coverdog.avif" alt="dog" class="animal-img" loading="lazy">
+                    <h3>DOGS</h3>
+                </a>
+                <a href="cat.html" class="animal-link">
+                    <img src="covercat.jpg" alt="cat" class="animal-img" loading="lazy">
+                    <h3>CATS</h3>
+                </a>
+                <a href="rabbit.html" class="animal-link">
+                    <img src="coverrabbit.webp" alt="rabbit" class="animal-img" loading="lazy">
+                    <h3>RABBITS</h3>
+                </a>
+                <a href="parrot.html" class="animal-link">
+                    <img src="coverparrot.avif" alt="parrot" class="animal-img" loading="lazy">
+                    <h3>PARROTS</h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage" class="hidden"></p>
+        </section>
+
+    </main>
+
+    <footer id="bottom">
+        <h2>Support:</h2>
+        <p>Contact us: <br>Phone: 8934439793 <br>Email: pawpromise@gmail.com</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+</body>
+
+</html>
