@@ -1,6 +1,6 @@
-# 🐾 Pet Adoption Website
+# 🐾 PawPromise - Pet Adoption Website
 
-Welcome to the Pet Adoption Website — a responsive and beginner-friendly web project built with **HTML**, **CSS**, and **JavaScript**. This site showcases adoptable pets like dogs, cats, parrots, and rabbits, with dedicated pages for each, along with vibrant visuals and simple navigation.
+Welcome to the PawPromise — a responsive and beginner-friendly web project built with **HTML**, **CSS**, and **JavaScript**. This site showcases adoptable pets like dogs, cats, parrots, and rabbits, with dedicated pages for each, along with vibrant visuals and simple navigation.
 
 It’s a great project to demonstrate clean UI structure, basic DOM interaction, and responsive layout design — all without any external libraries or frameworks.
 
