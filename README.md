@@ -31,7 +31,7 @@ It’s a great project to demonstrate clean UI structure, basic DOM interaction,
 ---
 
 ## 📁 Project Structure
-
+```css
 pet_adoption/
 ├── index.html
 ├── dog.html
@@ -60,7 +60,7 @@ pet_adoption/
 │ └── rabbit2.webp
 |
 └── README.md
-
+```
 ---
 
 ## 🧠 What I Learned
